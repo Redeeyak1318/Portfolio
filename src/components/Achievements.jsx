@@ -59,15 +59,23 @@ export default function Achievements() {
                 <ul ref={listRef} className="space-y-8">
                     <li className="flex items-start gap-4 group cursor-default">
                         <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
+                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">Built and deployed FoundersKick startup platform</span>
+                    </li>
+                    <li className="flex items-start gap-4 group cursor-default">
+                        <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
+                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">Designed modern personal portfolio</span>
+                    </li>
+                    <li className="flex items-start gap-4 group cursor-default">
+                        <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
+                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">GSAP + Lenis animation implementation</span>
+                    </li>
+                    <li className="flex items-start gap-4 group cursor-default">
+                        <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
                         <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">IEEE Student Member</span>
                     </li>
                     <li className="flex items-start gap-4 group cursor-default">
                         <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
-                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">GitHub Workshop Certificate (IIT Madras)</span>
-                    </li>
-                    <li className="flex items-start gap-4 group cursor-default">
-                        <span className="text-[#ff2a2a] font-black text-2xl group-hover:translate-x-2 transition-transform">/</span>
-                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">Various Participation Certificates</span>
+                        <span className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:text-[#ff2a2a] transition-colors">Hands-on with Git & GitHub</span>
                     </li>
                 </ul>
             </div>
