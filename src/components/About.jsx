@@ -87,7 +87,7 @@ export default function About() {
 
                 <div className="relative aspect-square md:aspect-[4/5] overflow-hidden rounded-[2.5rem] bg-zinc-900 group">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" alt="Portrait" className="w-full h-full object-cover grayscale transition-transform duration-1000 group-hover:scale-105 group-hover:grayscale-0" />
+                    <img src="/raktim.jpg" alt="Portrait" className="w-full h-full object-cover grayscale transition-transform duration-1000 group-hover:scale-105 group-hover:grayscale-0" />
                     <div className="absolute bottom-10 left-10 z-20">
                         <p className="text-xs font-bold uppercase tracking-[0.3em] opacity-60 mb-2">Current Mood</p>
                         <p className="display-font text-2xl">Building the Future.</p>
