@@ -1,0 +1,9 @@
+﻿Usage: superdesign get-design [options]
+
+Get HTML content for a specific draft
+
+Options:
+  --draft-id <draftId>  Draft ID to fetch
+  --json                Output in JSON format
+  --output <path>       Write HTML to file instead of stdout
+  -h, --help            display help for command

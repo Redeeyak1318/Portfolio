@@ -1,0 +1,42 @@
+﻿Usage: superdesign [options] [command]
+
+SuperDesign CLI - AI product designer for coding agents
+
+Options:
+  -V, --version                   output the version number
+  -h, --help                      display help for command
+
+Commands:
+  login [options]                 Authenticate with SuperDesign platform
+  logout [options]                Log out and clear stored credentials
+  init [options]                  Install SuperDesign skill files for Claude
+                                  Code (auto-login if needed)
+  create-project [options]        Create a new SuperDesign project
+  iterate-design-draft [options]  Generate design based on existing draft or template, the main design exploration tool
+  
+  Usage Examples:
+    # Iterate: replace mode (single variation, updates in place)
+    superdesign iterate-design-draft --draft-id <id> -p "..." --mode replace --json
+  
+    # Iterate: Explore multiple versions & variations (each prompt = one variation, prompt should be just directional, do not specify color, style, let superdesign design expert fill in details, you just give direction)
+    superdesign iterate-design-draft --draft-id <id> -p "dark theme" -p "minimal" -p "bold" --mode branch --json
+  
+    # Iterate: Auto explore (only give exploration direction, and let Superdesign fill in details, e.g. explore different styles; Default do NOT use auto explore mode)
+    superdesign iterate-design-draft --draft-id <id> -p "..." --mode branch --count 3 --json
+  execute-flow-pages [options]    Generate flow pages using AI
+  extract-brand-guide [options]   Extract brand guidelines from a website URL
+  search-prompts [options]        Search public prompts in the library
+  get-prompts [options]           Get prompts by their slugs
+  fetch-design-nodes [options]    Get all design draft nodes for a project
+  get-design [options]            Get HTML content for a specific draft
+  create-design-draft [options]   Create a design draft from scratch without
+                                  any reference, Default dont use this, use
+                                  iterate-design-draft instead
+  create-component [options]      Create a reusable Petite-Vue component in a
+                                  project
+  update-component [options]      Update an existing reusable Petite-Vue
+                                  component
+  list-components [options]       List all reusable components in a project
+  list-design-systems [options]   List available design systems and projects to
+                                  extend from
+  help [command]                  display help for command

@@ -1,0 +1,65 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,900,700,400&f[]=satoshi@700,500,400&display=swap');
+@import "tailwindcss";
+
+:root {
+  --accent-red: #ff2a2a;
+  --bg-black: #0a0a0a;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: var(--bg-black);
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.display-font {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  line-height: 0.85;
+}
+
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  color: transparent;
+}
+
+.red-dot {
+  width: clamp(20px, 4vw, 40px);
+  height: clamp(20px, 4vw, 40px);
+  background-color: var(--accent-red);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: var(--accent-red);
+  color: white;
+}
+
+/* Section spacing */
+section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+  .display-font {
+    line-height: 0.95;
+  }
+
+  section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
