@@ -89,7 +89,7 @@ export default function Projects() {
                         <div className="relative aspect-[16/10] overflow-hidden rounded-[2rem] bg-zinc-200">
                             <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="FoundersKick preview" />
                             <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity">
-                                <a href="https://founderskickv11-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className="bg-white/90 backdrop-blur p-4 rounded-full flex hover:bg-[#ff3333] hover:text-white transition-colors shadow-lg">
+                                <a href="https://founders-kickv1-1.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-white/90 backdrop-blur p-4 rounded-full flex hover:bg-[#ff3333] hover:text-white transition-colors shadow-lg">
                                     <iconify-icon icon="lucide:external-link" className="text-xl"></iconify-icon>
                                 </a>
                             </div>
